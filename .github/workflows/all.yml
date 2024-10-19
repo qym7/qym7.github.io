@@ -1,28 +1,16 @@
-name: Deploy Hugo site to GitHub Pages
+name: Updater (WIP)
 
 on:
-  push:
-    branches:
-      - main  # Set this to your default branch
+  schedule:
+    - cron: 0 0 * * 0
 
 jobs:
-  build-deploy:
+  update:
+    if: github.repository_owner == 'wowchemy'
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: wowchemy/gh-action-updater@v1
         with:
-          hugo-version: 'v0.104.3-58b824581360148f2d91f5cc83f69bd22c1aa331+extended'
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          feed-url: https://wowchemy.com/blog/index.xml
+          readme-section: news
+          branch: main
