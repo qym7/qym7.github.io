@@ -49,7 +49,7 @@ title: Yiming Qin
 first_name: Yiming
 email: "yiming.qin@epfl.ch"
 ---
-I am a second-year Ph.D. candidate at EPFL, where I am advised by [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/people-current/frossard/).
+I am a Ph.D. candidate at EPFL, where I am advised by [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/people-current/frossard/).
 I am currently working on generative models for graphs, with a strong passion for their potential in drug discovery to advance scientific research.
 Beyond that, my interests span enhancing control over generative models, graph machine learning, and neural network explainability.
 
