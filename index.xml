@@ -41,14 +41,6 @@
     </item>
     
     <item>
-      <title>Sparse denoising diffusion for large graph generation</title>
-      <link>https://qym7.github.io/publication/sparsediff-2023/</link>
-      <pubDate>Fri, 03 Nov 2023 05:58:00 +0000</pubDate>
-      <guid>https://qym7.github.io/publication/sparsediff-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Class-balancing diffusion models</title>
       <link>https://qym7.github.io/publication/cbdm-2023/</link>
       <pubDate>Sun, 30 Apr 2023 14:09:54 +0000</pubDate>
@@ -160,7 +152,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-569248317&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-197286453&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -170,7 +162,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-569248317&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-197286453&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -660,6 +652,14 @@ $$&lt;/p&gt;
       <link>https://qym7.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://qym7.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse denoising diffusion for large graph generation</title>
+      <link>https://qym7.github.io/publication/sparsediff-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://qym7.github.io/publication/sparsediff-2023/</guid>
       <description></description>
     </item>
     
