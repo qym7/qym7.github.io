@@ -39,5 +39,5 @@ publishDate: '2023-11-03T05:58:00.347109Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*arXiv preprint arXiv:2311.02142*'
+publication: 'Transactions on Machine Learning Research (TMLR)'
 ---
