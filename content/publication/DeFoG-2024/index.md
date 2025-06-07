@@ -5,8 +5,8 @@ title: 'DeFoG: Discrete Flow Matching for Graph Generation'
 subtitle: ''
 summary: 'Graph generation models often face limitations in sampling efficiency and flexibility due to tightly coupled training and sampling stages. We introduce DeFoG, a discrete flow matching framework that disentangles these stages, improving both efficiency and performance over existing diffusion models.'
 authors:
-- Yiming Qin
-- Manuel Madeira
+- admin *
+- Manuel Madeira *
 - Dorina Thanou
 - Pascal Frossard
 tags: []
