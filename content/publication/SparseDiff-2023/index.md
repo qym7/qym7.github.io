@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Sparse denoising diffusion for large graph generation'
+title: 'SparseDiff: Sparse Discrete Diffusion for Scalable Graph Generation'
 subtitle: ''
 summary: 'Generative models for graphs struggle with scalability due to predicting interactions for all node pairs. We introduce SparseDiff, a denoising diffusion model that leverages sparsity to overcome this.'
 authors:

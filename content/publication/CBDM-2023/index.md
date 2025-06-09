@@ -39,5 +39,5 @@ publishDate: '2023-04-30T14:09:54.941766Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*CVPR 2023*'
+publication: '*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*'
 ---
