@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Generating Directed Graphs with Dual Attention
-and Asymmetric Encoding"
+title:  "MEMOIR: Lifelong Model Editing with Minimal Overwrite and Informed Retention for LLMs"
 date:   2025-07-01 11:59:59 +00:00
 image: /images/memoir2.png
 categories: research

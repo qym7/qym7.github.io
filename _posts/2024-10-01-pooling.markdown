@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "On the Role of Structure in Hierarchical Graph Neural Networks"
+date:   2025-01-01 11:59:59 +00:00
+image: /images/pool.png
+categories: project
+author: "Luca Sbicego"
+authors: "Luca Sbicego, Sevda Öğüt, Manuel Madeira, <strong>Yiming Qin</strong>, Dorina Thanou, Pascal Frossard"
+venue: "ICLR (Workshop)"
+arxiv: https://openreview.net/forum?id=WpYdiLd5Fm
+---
+Hierarchical GNNs still don’t outperform flat ones overall but recover better from structural perturbations.

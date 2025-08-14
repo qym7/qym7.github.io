@@ -4,7 +4,7 @@ title:  "Generating Directed Graphs with Dual Attention
 and Asymmetric Encoding"
 date:   2025-07-01 11:59:59 +00:00
 image: /images/directo2.png
-categories: research
+categories: project
 author: "Alba Carballo-Castro"
 authors: "Alba Carballo-Castro, Manuel Madeira, <strong>Yiming Qin</strong>, Dorina Thanou, Pascal Frossard"
 venue: "Arxiv Preprint"
