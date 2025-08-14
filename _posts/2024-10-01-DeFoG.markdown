@@ -6,7 +6,7 @@ image: /images/defog2.png
 categories: research
 author: "Yiming Qin"
 authors: "<strong>Yiming Qin</strong>*, Manuel Madeira*, Dorina Thanou, Pascal Frossard"
-venue: "ICML (Oral)"
+venue: "ICML (Oral Presentation)"
 arxiv: https://arxiv.org/pdf/2410.04263
 code: https://github.com/manuelmlmadeira/DeFoG
 ---
