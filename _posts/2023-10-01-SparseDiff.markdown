@@ -2,7 +2,7 @@
 layout: post
 title:  "SparseDiff: Sparse Discrete Diffusion for Scalable Graph Generation"
 date:   2025-01-01 11:59:59 +00:00
-image: /images/sparsediff.png
+image: /images/sparsediff2.png
 categories: research
 author: "Yiming Qin"
 authors: "<strong>Yiming Qin</strong>, Clément Vignac, Pascal Frossard"

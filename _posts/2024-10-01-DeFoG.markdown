@@ -2,7 +2,7 @@
 layout: post
 title:  "DeFoG: Discrete flow matching for graph generation"
 date:   2025-01-01 11:59:59 +00:00
-image: /images/defog.png
+image: /images/defog2.png
 categories: research
 author: "Yiming Qin"
 authors: "<strong>Yiming Qin</strong>*, Manuel Madeira*, Dorina Thanou, Pascal Frossard"
