@@ -33,6 +33,7 @@
             <td style="padding:2.5%;width:65%;vertical-align:middle">
               <h1>
                 Yiming Qin
+
               </h1>
               <p>
                 I am a PhD student at the <a href="https://www.epfl.ch/labs/lts4/">LTS4 (Signal Processing Laboratory)</a> at the 
@@ -149,9 +150,7 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>
-              <br>
-              {{ post.date | date: "%Y" }}
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
