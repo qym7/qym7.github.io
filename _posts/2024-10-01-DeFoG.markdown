@@ -8,5 +8,6 @@ author: "Yiming Qin"
 authors: "<strong>Yiming Qin</strong>*, Manuel Madeira*, Dorina Thanou, Pascal Frossard"
 venue: "ICML (Oral)"
 arxiv: https://arxiv.org/pdf/2410.04263
+code: https://github.com/manuelmlmadeira/DeFoG
 ---
 Graph generation models often face limitations in sampling efficiency and flexibility due to tightly coupled training and sampling stages. We introduce DeFoG, a discrete flow matching framework that disentangles these stages, improving both efficiency and performance over existing diffusion models.
