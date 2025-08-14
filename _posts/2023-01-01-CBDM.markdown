@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Class-balancing diffusion models"
+date:   2023-01-01 11:59:59 +00:00
+image: /images/cbdm.png
+categories: research
+author: "Yiming Qin"
+authors: "<strong>Yiming Qin</strong>, Huangjie Zheng, Jiangchao Yao, Mingyuan Zhou, Ya Zhang"
+venue: "CVPR"
+arxiv: https://arxiv.org/pdf/2305.00562
+code: https://github.com/qym7/CBDM-pytorch
+---
+We observe significant performance degradation on tail classes in both diversity and fidelity, and propose Class-Balancing Diffusion Models (CBDM) that are trained with a distribution adjustment regularizer as a solution.

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Generating Directed Graphs with Dual Attention
+and Asymmetric Encoding"
+date:   2025-07-01 11:59:59 +00:00
+image: /images/memoir.png
+categories: research
+author: "Alba Carballo-Castro"
+authors: "Ke Wang*, <strong>Yiming Qin</strong>*, Nikolaos Dimitriadis, Alessandro Favero, Pascal Frossard"
+venue: "Arxiv Preprint"
+arxiv: https://arxiv.org/pdf/2506.07899?
+# code: https://github.com/acarballocastro/DIRECTO
+---
+MEMOIR adds new knowledge to language models via a sparse, query-matched residual memory, enabling thousands of edits with minimal forgetting and strong generalization.
