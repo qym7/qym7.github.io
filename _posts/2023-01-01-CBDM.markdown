@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Class-balancing diffusion models"
+title:  "Class-balancing Diffusion Models"
 date:   2023-01-01 11:59:59 +00:00
 image: /images/cbdm.png
 categories: research
