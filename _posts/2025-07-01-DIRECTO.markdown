@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Generating Directed Graphs with Dual Attention and Asymmetric Encoding"
-date:   2025-07-01 11:59:59 +00:00
+date:   2026-01-01 11:59:59 +00:00
 image: /images/directo2.png
 categories: research
 author: "Alba Carballo-Castro"
 authors: "Alba Carballo-Castro, Manuel Madeira, <strong>Yiming Qin</strong>, Dorina Thanou, Pascal Frossard"
-venue: "ICLR 2026"
+venue: "ICLR"
 arxiv: https://arxiv.org/pdf/2506.16404
 code: https://github.com/acarballocastro/DIRECTO
 ---
