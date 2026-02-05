@@ -6,7 +6,7 @@ image: /images/directo2.png
 categories: research
 author: "Alba Carballo-Castro"
 authors: "Alba Carballo-Castro, Manuel Madeira, <strong>Yiming Qin</strong>, Dorina Thanou, Pascal Frossard"
-venue: "Arxiv Preprint"
+venue: "ICLR 2026"
 arxiv: https://arxiv.org/pdf/2506.16404
 code: https://github.com/acarballocastro/DIRECTO
 ---
