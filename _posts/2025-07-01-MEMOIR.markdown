@@ -6,7 +6,7 @@ image: /images/memoir2.png
 categories: research
 author: "Ke Wang"
 authors: "Ke Wang*, <strong>Yiming Qin</strong>*, Nikolaos Dimitriadis, Alessandro Favero, Pascal Frossard"
-venue: "NeurIPS 2025"
+venue: "NeurIPS"
 arxiv: https://arxiv.org/pdf/2506.07899?
 code: https://github.com/qym7/MEMOIR
 ---
