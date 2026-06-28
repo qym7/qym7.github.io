@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Fixed-Point Masked Generative Modeling"
+date: 2026-05-29 11:59:59 +00:00
+image: /images/cofre.png
+categories: research
+author: "Andrea Miele"
+authors: "Andrea Miele, <strong>Yiming Qin</strong>, Alba Carballo-Castro, Justin Deschenaux, Pascal Frossard"
+venue: "ICML 2026 SPIGM Workshop"
+arxiv: https://arxiv.org/abs/2605.31215
+---
+
+We introduce CoFRe, a fixed-point framework for masked generative models that reduces parameters, training cost, and memory usage while improving low-budget generation across text and image modalities.

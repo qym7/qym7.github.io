@@ -1,0 +1,13 @@
+---
+layout: post
+title: "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models"
+date: 2026-06-23 11:59:59 +00:00
+image: /images/dbmol.png
+categories: research
+author: "Yiming Qin"
+authors: "<strong>Yiming Qin</strong>, Kai Yi, Miruna Cretu, Sjors H. W. Scheres, Pietro Liò, Pascal Frossard"
+venue: "ICML 2026 GenBio Workshop"
+openreview: https://openreview.net/forum?id=LZGvXkyxfb
+---
+
+DBMol is a docking-dataset-free framework that uses structure prediction models to guide de novo small-molecule design, achieving strong affinity and pocket specificity without reinforcement learning or docking supervision.
