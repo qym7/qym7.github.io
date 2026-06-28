@@ -99,6 +99,32 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.news-list {
+  margin-top: 12px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  column-gap: 14px;
+  padding: 9px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.news-date {
+  color: #666666;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .news-item {
+    grid-template-columns: 1fr;
+    row-gap: 3px;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";

@@ -1,0 +1,7 @@
+.codex/
+.codex*
+codex-*.log
+codex-*.json
+codex-*.jsonl
+codex-records/
+codex-sessions/
