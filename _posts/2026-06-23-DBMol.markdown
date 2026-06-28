@@ -10,4 +10,4 @@ venue: "ICML 2026 GenBio Workshop"
 openreview: https://openreview.net/forum?id=LZGvXkyxfb
 ---
 
-DBMol is a docking-dataset-free framework that uses structure prediction models to guide de novo small-molecule design, achieving strong affinity and pocket specificity without reinforcement learning or docking supervision. This project extends my graph generation work toward structure-guided small-molecule design.
+DBMol is a docking-dataset-free framework that uses structure prediction models to guide de novo small-molecule design, achieving strong affinity and pocket specificity without reinforcement learning or docking supervision. This project applies 2D graph generation for small-molecule design.
