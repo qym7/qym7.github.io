@@ -10,4 +10,4 @@ venue: "ICML 2026 SPIGM Workshop"
 arxiv: https://arxiv.org/abs/2605.31215
 ---
 
-We introduce CoFRe, a fixed-point framework for masked generative models that reduces parameters, training cost, and memory usage while improving low-budget generation across text and image modalities. The framework connects training and inference more tightly, making high-efficiency generation practical in both text and image settings.
+We introduce CoFRe, a fixed-point framework for masked generative models that reduces parameters, training cost, and memory usage while improving low-budget generation across text and image modalities.
