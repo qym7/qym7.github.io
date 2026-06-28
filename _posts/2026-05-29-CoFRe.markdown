@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fixed-Point Masked Generative Modeling"
-date: 2026-05-29 11:59:59 +00:00
+date: 2026-06-17 11:59:59 +00:00
 image: /images/cofre.png
 categories: research
 author: "Andrea Miele"

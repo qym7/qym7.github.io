@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Efficient Edge-aware Attention Network for Graph Generation"
-date: 2026-06-17 11:59:59 +00:00
+date: 2026-05-29 11:59:59 +00:00
 image: /images/graphattn.png
 categories: research
 author: "Vincent Jung"
