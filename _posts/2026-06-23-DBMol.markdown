@@ -5,7 +5,7 @@ date: 2026-06-23 11:59:59 +00:00
 image: /images/dbmol.png
 categories: research
 author: "Yiming Qin"
-authors: "<strong>Yiming Qin</strong>, Kai Yi, Miruna Cretu, Sjors H. W. Scheres, Pietro Liò, Pascal Frossard"
+authors: "<strong>Yiming Qin</strong>*, Kai Yi*, Miruna Cretu, Sjors H. W. Scheres, Pietro Liò, Pascal Frossard"
 venue: "ICML 2026 GenBio Workshop"
 openreview: https://openreview.net/forum?id=LZGvXkyxfb
 ---
