@@ -10,4 +10,4 @@ venue: "CVPR"
 arxiv: https://arxiv.org/pdf/2305.00562
 code: https://github.com/qym7/CBDM-pytorch
 ---
-We observe significant performance degradation on tail classes in both diversity and fidelity, and propose Class-Balancing Diffusion Models (CBDM) that are trained with a distribution adjustment regularizer as a solution.
+We observe significant performance degradation on tail classes in both diversity and fidelity, and propose Class-Balancing Diffusion Models (CBDM) that are trained with a distribution adjustment regularizer as a solution. This was a very interesting project for me to learn about diffusion models.

@@ -10,4 +10,4 @@ venue: "ICLR"
 arxiv: https://arxiv.org/pdf/2506.16404
 code: https://github.com/acarballocastro/DIRECTO
 ---
-We propose DIRECTO, a discrete flow matching model with direction-aware encodings and dual-attention, plus new benchmarks, for better directed graph generation.
+We propose DIRECTO, a discrete flow matching model with direction-aware encodings and dual-attention, plus new benchmarks, for better directed graph generation. It extends ideas from DeFoG to directed graphs and shows their robustness in a new setting.

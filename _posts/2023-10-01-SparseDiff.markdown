@@ -10,4 +10,4 @@ venue: "TMLR"
 arxiv: https://arxiv.org/pdf/2311.02142
 code: https://github.com/qym7/SparseDiff
 ---
-Generative models for graphs struggle with scalability due to predicting interactions for all node pairs. We introduce SparseDiff, a denoising diffusion model that leverages sparsity to overcome this.
+Generative models for graphs struggle with scalability due to predicting interactions for all node pairs. We introduce SparseDiff, a denoising diffusion model that leverages sparsity to overcome this. This project reformulates diffusion, denoising, and the model architecture around sparse graph representations.

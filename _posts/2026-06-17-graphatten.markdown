@@ -10,4 +10,4 @@ venue: "ICML 2026 Graph Foundation Models Workshop"
 openreview: https://openreview.net/forum?id=dGJeSIPdnc
 ---
 
-We propose a kernel-friendly edge-aware attention layer for graph generation that is directly compatible with PyTorch FlexAttention, reducing GPU memory by around 65% while substantially accelerating training and sampling without sacrificing generation quality. This work offers a complementary angle to SparseDiff, focusing on scalable transformer architectures for graph generation.
+We propose a kernel-friendly edge-aware attention layer for graph generation that is directly compatible with PyTorch FlexAttention, reducing GPU memory by around 65% while substantially accelerating training and sampling without sacrificing generation quality. This work offers a complementary angle to SparseDiff for scalable graph generation.

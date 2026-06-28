@@ -115,6 +115,7 @@ span.highlight {
 .news-date {
   color: #666666;
   font-weight: 700;
+  text-align: right;
   white-space: nowrap;
 }
 
@@ -122,6 +123,10 @@ span.highlight {
   .news-item {
     grid-template-columns: 1fr;
     row-gap: 3px;
+  }
+
+  .news-date {
+    text-align: left;
   }
 }
 
