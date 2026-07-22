@@ -1,0 +1,13 @@
+---
+layout: post
+title: "DiPhon: Diffusion on Graphons for Scalable Graph Generation"
+date: 2026-06-10 11:59:59 +00:00
+image: /images/diphon.png
+categories: research
+author: "Sergio Rozada"
+authors: "Sergio Rozada, <strong>Yiming Qin</strong>, Manuel Madeira, Pascal Frossard, Alejandro Ribeiro"
+venue: "arXiv"
+arxiv: https://arxiv.org/pdf/2607.07232
+---
+
+We introduce DiPhon, a diffusion framework on graphons that enables models trained on small graphs to generate progressively larger graphs without retraining while preserving their core topological properties.
