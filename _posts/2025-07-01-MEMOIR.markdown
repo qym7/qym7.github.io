@@ -7,7 +7,7 @@ categories: research
 display_after: DiPhon
 author: "Ke Wang"
 authors: "Ke Wang*, <strong>Yiming Qin</strong>*, Nikolaos Dimitriadis, Alessandro Favero, Pascal Frossard"
-venue: "arXiv Preprint"
+venue: "NeurIPS 2025"
 arxiv: https://arxiv.org/abs/2506.07899
 ---
 MEMOIR adds new knowledge to language models via a sparse, query-matched residual memory, enabling thousands of edits with minimal forgetting and strong generalization.
