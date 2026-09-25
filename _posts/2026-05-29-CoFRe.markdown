@@ -6,7 +6,7 @@ image: /images/cofre.png
 categories: research
 author: "Andrea Miele"
 authors: "Andrea Miele, <strong>Yiming Qin</strong>, Alba Carballo-Castro, Justin Deschenaux, Pascal Frossard"
-venue: "ICML 2026 SPIGM Workshop"
+venue: "NeurIPS 2026"
 arxiv: https://arxiv.org/abs/2605.31215
 ---
 

@@ -6,7 +6,7 @@ image: /images/diphon.png
 categories: research
 author: "Sergio Rozada"
 authors: "Sergio Rozada, <strong>Yiming Qin</strong>, Manuel Madeira, Pascal Frossard, Alejandro Ribeiro"
-venue: "arXiv"
+venue: "NeurIPS 2026"
 arxiv: https://arxiv.org/pdf/2607.07232
 ---
 
