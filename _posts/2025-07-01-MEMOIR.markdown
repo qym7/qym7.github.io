@@ -4,6 +4,7 @@ title:  "MEMOIR: Lifelong Model Editing with Minimal Overwrite and Informed Rete
 date:   2025-07-01 11:59:59 +00:00
 image: /images/memoir2.png
 categories: research
+display_after: DiPhon
 author: "Ke Wang"
 authors: "Ke Wang*, <strong>Yiming Qin</strong>*, Nikolaos Dimitriadis, Alessandro Favero, Pascal Frossard"
 venue: "arXiv Preprint"
