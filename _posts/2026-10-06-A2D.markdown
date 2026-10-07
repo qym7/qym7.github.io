@@ -5,7 +5,7 @@ date: 2026-10-06 11:59:59 +00:00
 image: /images/a2d-radar.svg
 categories: research
 author: "Yiming Qin"
-authors: "<strong>Yiming Qin</strong>*, <strong>Ke Wang</strong>*, Amel Abdelraheem, Adam Hazimeh, Pascal Frossard"
+authors: "<strong>Yiming Qin</strong>*, Ke Wang*, Amel Abdelraheem, Adam Hazimeh, Pascal Frossard"
 venue: "arXiv preprint"
 arxiv: https://arxiv.org/abs/2610.08108
 ---
