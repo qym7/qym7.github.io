@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Enhancing Diffusion Language Models with Autoregressive Post-Training Weights"
+date: 2026-10-06 11:59:59 +00:00
+image: /images/a2d-taskarithmetic.png
+categories: research
+author: "Yiming Qin"
+authors: "<strong>Yiming Qin</strong>*, <strong>Ke Wang</strong>*, Amel Abdelraheem, Adam Hazimeh, Pascal Frossard"
+venue: "arXiv preprint"
+arxiv: https://arxiv.org/abs/2610.08108
+---
+
+We introduce A2D, a training-free framework that transfers and composes autoregressive post-training updates in diffusion language models. Across recent diffusion language models, A2D improves instruction following, mathematical reasoning, and coding without additional training or inference-time computation. Figure 4(a) shows that combining autoregressive and diffusion updates can outperform either update alone.
