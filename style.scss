@@ -30,7 +30,7 @@ a:hover {
 }
 
 body {
-  background: #f8faf7;
+  background: #fff;
   color: #27332a;
 }
 
@@ -45,26 +45,24 @@ body {
 
 .project-list td {
   background: #fff;
-  border-top: 1px solid #e4ebe2;
-  border-bottom: 1px solid #e4ebe2;
-  transition: box-shadow 200ms ease, border-color 200ms ease;
+  border-top: 1px solid #e8eae7;
+  border-bottom: 1px solid #e8eae7;
+  transition: box-shadow 180ms ease, border-color 180ms ease;
 }
 
 .project-list td:first-child {
-  border-left: 1px solid #e4ebe2;
-  border-radius: 12px 0 0 12px;
+  border-left: 1px solid #e8eae7;
+  border-radius: 9px 0 0 9px;
 }
 
 .project-list td:last-child {
-  border-right: 1px solid #e4ebe2;
-  border-radius: 0 12px 12px 0;
+  border-right: 1px solid #e8eae7;
+  border-radius: 0 9px 9px 0;
 }
 
 .project-list tr:hover td {
-  border-color: #8053a4;
-  background-color: #fefcff;
-  box-shadow: 0 10px 28px rgba(72, 42, 101, 0.3);
-  transform: translateY(-2px);
+  border-color: #967ba8;
+  box-shadow: 0 4px 14px rgba(72, 42, 101, 0.1);
 }
 
 .project-list h3 {
@@ -75,19 +73,21 @@ body {
   color: #56316f;
 }
 
-.project-list img {
-  transition: transform 180ms ease;
-}
-
-.project-list tr:hover img {
-  transform: scale(1.05);
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .project-list td,
-  .project-list img {
+  .project-list td {
     transition: none;
   }
+
+  .project-list h3 {
+    transition: none;
+  }
+}
+
+.research-mark {
+  width: 34px;
+  height: 34px;
+  margin-left: 8px;
+  vertical-align: -8px;
 }
 
 body,
