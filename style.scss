@@ -41,7 +41,7 @@ body {
   background: #fff;
   border-top: 1px solid #e4ebe2;
   border-bottom: 1px solid #e4ebe2;
-  transition: box-shadow 180ms ease, border-color 180ms ease;
+  transition: box-shadow 200ms ease, border-color 200ms ease;
 }
 
 .project-list td:first-child {
@@ -55,8 +55,16 @@ body {
 }
 
 .project-list tr:hover td {
-  border-color: #cbb5dc;
-  box-shadow: 0 5px 18px rgba(117, 83, 151, 0.14);
+  border-color: #ad8bc5;
+  box-shadow: 0 7px 22px rgba(100, 65, 135, 0.22);
+}
+
+.project-list h3 {
+  transition: color 200ms ease;
+}
+
+.project-list tr:hover h3 {
+  color: #684584;
 }
 
 .project-list img {
@@ -64,7 +72,7 @@ body {
 }
 
 .project-list tr:hover img {
-  transform: scale(1.025);
+  transform: scale(1.04);
 }
 
 @media (prefers-reduced-motion: reduce) {
