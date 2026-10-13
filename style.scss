@@ -18,12 +18,12 @@ a {
 }
 
 a:visited {
-  color: #593472;
+  color: #8552a1;
 }
 
 a:focus,
 a:hover {
-  color: #593472;
+  color: #8552a1;
 }
 
 body {
@@ -58,8 +58,8 @@ body {
 }
 
 .project-list tr:hover td {
-  border-color: #967ba8;
-  box-shadow: 0 4px 14px rgba(72, 42, 101, 0.1);
+  border-color: #bc9fcd;
+  box-shadow: 0 4px 14px rgba(133, 82, 161, 0.12);
 }
 
 .project-list h3 {
@@ -67,7 +67,7 @@ body {
 }
 
 .project-list tr:hover h3 {
-  color: #56316f;
+  color: #8552a1;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -78,13 +78,6 @@ body {
   .project-list h3 {
     transition: none;
   }
-}
-
-.research-mark {
-  width: 34px;
-  height: 34px;
-  margin-left: 8px;
-  vertical-align: -8px;
 }
 
 body,
@@ -113,6 +106,13 @@ h2 {
   margin: 0px;
   display:inline; 
   color: #333;
+}
+
+h2::after {
+  content: " ✦";
+  color: #b78dca;
+  font-size: 0.75em;
+  margin-left: 3px;
 }
 
 h3 {
