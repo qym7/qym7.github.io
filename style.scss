@@ -55,8 +55,10 @@ body {
 }
 
 .project-list tr:hover td {
-  border-color: #9672b2;
-  box-shadow: 0 7px 22px rgba(72, 42, 101, 0.22);
+  border-color: #8053a4;
+  background-color: #fefcff;
+  box-shadow: 0 10px 28px rgba(72, 42, 101, 0.3);
+  transform: translateY(-2px);
 }
 
 .project-list h3 {
@@ -72,7 +74,7 @@ body {
 }
 
 .project-list tr:hover img {
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 @media (prefers-reduced-motion: reduce) {
