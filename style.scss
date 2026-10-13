@@ -13,10 +13,8 @@
 /* BASE RULES */
 /**************/
 a {
-  color: #24683c;
-  text-decoration: underline;
-  text-decoration-color: rgba(36, 104, 60, 0.55);
-  text-underline-offset: 2px;
+  color: #1772d0;
+  text-decoration: none;
 }
 
 a:visited {
@@ -26,12 +24,11 @@ a:visited {
 a:focus,
 a:hover {
   color: #593472;
-  text-decoration-color: currentColor;
 }
 
 body {
-  background: #fff;
-  color: #27332a;
+  background: #fff8fb;
+  color: #333;
 }
 
 .page-content {
@@ -115,7 +112,7 @@ h2 {
   padding: 0px;
   margin: 0px;
   display:inline; 
-  color: #2d4432;
+  color: #333;
 }
 
 h3 {
