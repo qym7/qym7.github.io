@@ -18,9 +18,9 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=20261013-symbols" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=20261013-cormorant" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -145,6 +145,7 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
+              {% if post.oral %}<span class="paper-badge">Oral</span>{% endif %}
               <br>
               {{post.authors}}
 

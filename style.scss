@@ -98,10 +98,9 @@ strong {
 }
 
 h2 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 22px;
-  font-display: auto;
-  font-weight: normal;
+  font-weight: 600;
   padding: 0px;
   margin: 0px;
   display:inline; 
@@ -126,10 +125,10 @@ h3 {
 }
 
 h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
-  font-display: auto;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: italic;
   text-align: center;
   padding: 0px;
   margin-block-start: 14px;
@@ -137,6 +136,21 @@ h1 {
   margin-left: 0px;
   margin-right: 0px;
 
+}
+
+.paper-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border: 1px solid #efd8e1;
+  border-radius: 999px;
+  background: #fff1f6;
+  color: #87536d;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.5;
+  vertical-align: 2px;
 }
 
 .one {
