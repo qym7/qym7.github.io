@@ -18,7 +18,7 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=20261013-soft-lilac" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=20261013-quick-nav" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" type="text/css">
 
@@ -28,10 +28,17 @@
   <table class="page-content" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
+        <nav class="quick-nav" aria-label="Page sections">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#supervised-projects">Supervised projects</a>
+          <a href="#projects">Projects</a>
+        </nav>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:65%;vertical-align:middle">
-              <h1>
+              <h1 id="about">
                 Yiming Qin
               </h1>
               <p>
@@ -57,7 +64,7 @@
           <tbody>
             <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>News</h2>
+              <h2 id="news">News</h2>
                 <div class="news-list">
                   <div class="news-item">
                     <div class="news-date">Oct 2026</div>
@@ -108,7 +115,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
+              <h2 id="research">Research</h2>
               <p>
                 <!-- I'm interested in generative models on graphs. -->
                 My research focuses on generative modeling, with particular interests in discrete diffusion and flow matching, diffusion language models, efficient generative modeling, and applications to graphs and molecular design.
@@ -175,7 +182,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Supervised projects</h2>
+              <h2 id="supervised-projects">Supervised projects</h2>
               <p>
                 Here are some research projects that I have supervised. Open projects (for EPFL students) can be found  <a href="https://sti-zen.epfl.ch/">here</a>. Feel free to get in touch.
               </p>
@@ -247,7 +254,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Projects</h2>
+              <h2 id="projects">Projects</h2>
               <p>
                 Here are some projects that I have worked on.
                 <!-- , including my internship projects and interesting course projects. -->
