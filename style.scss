@@ -39,9 +39,10 @@ body {
 .quick-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 8px 24px;
-  margin: 0 2.5% 10px;
+  width: 65%;
+  margin: 0 2.5% 10px 32.5%;
   padding: 0 0 12px;
   border-bottom: 1px solid #eee7f2;
 }
@@ -261,6 +262,11 @@ span.highlight {
 }
 
 @media (max-width: 560px) {
+  .quick-nav {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
   .news-item {
     grid-template-columns: 1fr;
     row-gap: 3px;
