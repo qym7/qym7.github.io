@@ -13,14 +13,20 @@
 /* BASE RULES */
 /**************/
 a {
-  color: #31583a;
-  text-decoration: none;
+  color: #24683c;
+  text-decoration: underline;
+  text-decoration-color: rgba(36, 104, 60, 0.55);
+  text-underline-offset: 2px;
+}
+
+a:visited {
+  color: #593472;
 }
 
 a:focus,
 a:hover {
   color: #593472;
-  text-decoration: none;
+  text-decoration-color: currentColor;
 }
 
 body {
