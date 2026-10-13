@@ -107,11 +107,18 @@ h2 {
   color: #333;
 }
 
+h2::before,
 h2::after {
   content: " ✦";
   color: #b78dca;
   font-size: 0.75em;
   margin-left: 3px;
+}
+
+h2::before {
+  content: "✦ ";
+  margin-left: 0;
+  margin-right: 3px;
 }
 
 h3 {
