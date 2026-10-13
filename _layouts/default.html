@@ -134,12 +134,12 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
-              {% if post.oral %}<span class="paper-badge">Oral</span>{% endif %}
               <br>
               {{post.authors}}
 
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              {% if post.oral %}<span class="paper-badge">Oral</span>{% endif %}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
