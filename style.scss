@@ -47,8 +47,43 @@ body {
 }
 
 .quick-nav a {
-  font-size: 13px;
-  font-weight: 700;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cursor-sparkle {
+  position: fixed;
+  z-index: 9999;
+  color: rgba(133, 82, 161, 0.72);
+  font-size: var(--sparkle-size, 10px);
+  line-height: 1;
+  pointer-events: none;
+  text-shadow: 0 0 8px rgba(183, 141, 202, 0.45);
+  transform: translate(-50%, -50%);
+  animation: cursor-sparkle-fade 620ms ease-out forwards;
+}
+
+@keyframes cursor-sparkle-fade {
+  0% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.65);
+  }
+  35% {
+    opacity: 0.65;
+    transform: translate(-50%, -50%) rotate(18deg) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(-18deg) scale(0.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-sparkle {
+    display: none;
+    animation: none;
+  }
 }
 
 h1[id],

@@ -18,7 +18,7 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=20261013-link-underline" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css?v=20261013-sparkle-trail" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" type="text/css">
 
@@ -29,7 +29,6 @@
     <tr style="padding:0px">
       <td style="padding:0px">
         <nav class="quick-nav" aria-label="Page sections">
-          <a href="#about">About</a>
           <a href="#news">News</a>
           <a href="#research">Research</a>
           <a href="#supervised-projects">Supervised projects</a>
@@ -337,6 +336,35 @@
       </td>
     </tr>
   </table>
+  <script>
+    (() => {
+      if (!window.matchMedia('(pointer: fine)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+      let lastTime = 0;
+      let lastX = 0;
+      let lastY = 0;
+      document.addEventListener('pointermove', (event) => {
+        if (event.pointerType !== 'mouse') return;
+        const now = performance.now();
+        const dx = event.clientX - lastX;
+        const dy = event.clientY - lastY;
+        if (now - lastTime < 42 || dx * dx + dy * dy < 64) return;
+        lastTime = now;
+        lastX = event.clientX;
+        lastY = event.clientY;
+
+        const sparkle = document.createElement('span');
+        sparkle.className = 'cursor-sparkle';
+        sparkle.setAttribute('aria-hidden', 'true');
+        sparkle.textContent = '✦';
+        sparkle.style.left = `${event.clientX}px`;
+        sparkle.style.top = `${event.clientY}px`;
+        sparkle.style.setProperty('--sparkle-size', `${7 + Math.random() * 6}px`);
+        document.body.appendChild(sparkle);
+        sparkle.addEventListener('animationend', () => sparkle.remove(), { once: true });
+      });
+    })();
+  </script>
 </body>
 
 </html>
