@@ -41,7 +41,7 @@ body {
   background: #fff;
   border-top: 1px solid #e4ebe2;
   border-bottom: 1px solid #e4ebe2;
-  transition: box-shadow 160ms ease, transform 160ms ease;
+  transition: box-shadow 180ms ease, border-color 180ms ease;
 }
 
 .project-list td:first-child {
@@ -55,7 +55,23 @@ body {
 }
 
 .project-list tr:hover td {
-  box-shadow: 0 5px 18px rgba(49, 78, 55, 0.08);
+  border-color: #cbb5dc;
+  box-shadow: 0 5px 18px rgba(117, 83, 151, 0.14);
+}
+
+.project-list img {
+  transition: transform 180ms ease;
+}
+
+.project-list tr:hover img {
+  transform: scale(1.025);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-list td,
+  .project-list img {
+    transition: none;
+  }
 }
 
 body,
