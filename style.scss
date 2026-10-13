@@ -13,14 +13,49 @@
 /* BASE RULES */
 /**************/
 a {
-  color: #1772d0;
+  color: #456d50;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #765a8e;
   text-decoration: none;
+}
+
+body {
+  background: #f3f7f2;
+  color: #27332a;
+}
+
+.page-content {
+  margin-top: 28px !important;
+  margin-bottom: 36px !important;
+}
+
+.project-list {
+  border-spacing: 0 12px !important;
+}
+
+.project-list td {
+  background: #fff;
+  border-top: 1px solid #e4ebe2;
+  border-bottom: 1px solid #e4ebe2;
+  transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.project-list td:first-child {
+  border-left: 1px solid #e4ebe2;
+  border-radius: 12px 0 0 12px;
+}
+
+.project-list td:last-child {
+  border-right: 1px solid #e4ebe2;
+  border-radius: 0 12px 12px 0;
+}
+
+.project-list tr:hover td {
+  box-shadow: 0 5px 18px rgba(49, 78, 55, 0.08);
 }
 
 body,
@@ -48,6 +83,7 @@ h2 {
   padding: 0px;
   margin: 0px;
   display:inline; 
+  color: #354d3a;
 }
 
 h3 {
