@@ -6,7 +6,7 @@ image: /images/permutation.png
 categories: supervision
 author: "Benjamin Honoré"
 authors: "Benjamin Honoré, Alba Carballo-Castro, <strong>Yiming Qin</strong>, Pascal Frossard"
-venue: "GRaM Workshop, ICLR 2026"
+venue: "GRaM Workshop, ICLR"
 arxiv: https://arxiv.org/abs/2602.18084
 ---
 

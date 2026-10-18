@@ -6,7 +6,7 @@ image: /images/cofre.png
 categories: research
 author: "Andrea Miele"
 authors: "Andrea Miele, <strong>Yiming Qin</strong>, Alba Carballo-Castro, Justin Deschenaux, Pascal Frossard"
-venue: "NeurIPS 2026"
+venue: "NeurIPS"
 arxiv: https://arxiv.org/abs/2605.31215
 ---
 

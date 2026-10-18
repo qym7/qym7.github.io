@@ -6,7 +6,7 @@ image: /images/graphattn.png
 categories: research
 author: "Vincent Jung"
 authors: "Vincent Jung*, Alba Carballo-Castro*, <strong>Yiming Qin</strong>*, Lonneke van der Plas, Pascal Frossard"
-venue: "ICML 2026 Graph Foundation Models Workshop"
+venue: "ICML Graph Foundation Models Workshop"
 openreview: https://openreview.net/forum?id=dGJeSIPdnc
 ---
 
